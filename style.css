@@ -4,6 +4,8 @@
 	padding: 0;
 }
 
+/*mobile breakpoint */
+
 
 body, html{
 	
@@ -248,7 +250,7 @@ h3{
 	height: 83px;
 	position: absolute;
 	top: -19px;
-    left: -12px
+    left: -12px;
 }
 
 .first .first_name{
@@ -268,7 +270,7 @@ h3{
 	width: 230px;
 	height: 1px;
 	margin: 10px 20px 8px 70px;
-	background-color: rgba(0,0,0,.1)
+	background-color: rgba(0,0,0,.1);
 }
 
 .first .first_icon{
@@ -426,17 +428,48 @@ footer p{
 	padding: 10px 0;
 } */
 
-/*mobile breakpoint */
-@media only screen and (max-width:768px){
+
+/*mobile breakpoint @media only screen and (max-width:500px) */
+@media (max-width:500px) {
+
+	.hero{
+		font-size: 300%;
+		color: red;
+	}
+
+	.hero_title{
+		padding-bottom: 20px;
+	}
+
+	.text_hero{
+		display: block;
+		top: 33%;
+		left: 18%;
+	}
+
+	.globe{
+		top: 53%;
+    	display: block;
+		right: 18%;
+	}
+
+	nav ul li{
+	display: block;
+}
+
+	nav ul li a{
+	font-size: 28px;
+	height: 100%;
+}
+
 
 
 }
 
-/*tablet breakpoint zjkjrzerkaqsdqssdsd */
-@media only screen and (min-width:768px) and (max-width:1200px){
+/*tablet breakpoint @media only screen and (min-width:501px) and (max-width:1200px){
 
+} */
 
-}
 
 
 
