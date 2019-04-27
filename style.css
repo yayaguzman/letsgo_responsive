@@ -14,8 +14,8 @@ body, html{
 }
 
 nav{
-	height: 80px;
 	width: 100%;
+	height: 80px;
 	background: #ffffff;
 	position: fixed;
 	z-index: 1;
@@ -432,35 +432,53 @@ footer p{
 /*mobile breakpoint @media only screen and (max-width:500px) */
 @media (max-width:500px) {
 
-	.hero{
-		font-size: 300%;
-		color: red;
-	}
-
-	.hero_title{
-		padding-bottom: 20px;
-	}
-
-	.text_hero{
-		display: block;
-		top: 33%;
-		left: 18%;
-	}
-
 	.globe{
 		top: 53%;
-    	display: block;
+    	display: none;
 		right: 18%;
 	}
 
+	#mobile_menu{
+		background-image: url(img/mobile_menu.svg);
+		background-repeat: no-repeat;
+		width: 40px;
+		height: 30px;
+		position: absolute;
+		top: 10%;
+    	right: 5%;
+    	z-index: 100;
+	}
+
+	nav ul{
+		position: absolute;
+		width: 300px;
+		background-color: white;
+		opacity: .9;
+		right: 0%;
+		top: 0%;	
+	}
+
 	nav ul li{
+		float: none;
+	}
+
+	nav ul li a{
+		display: block;
+		
+	}
+
+	.hero{
+	width: 100%;
+	}
+
+	.btn_download{
 	display: block;
 }
 
-	nav ul li a{
-	font-size: 28px;
-	height: 100%;
+body{
+	width: 100%;
 }
+
 
 
 
