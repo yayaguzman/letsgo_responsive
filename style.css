@@ -453,6 +453,8 @@ footer p{
 
 	nav ul{
 		display: flex;
+		display: -webkit-flex; 
+		-webkit-flex-direction: column-reverse;
     	flex-direction: column-reverse;
     	align-items: center;
 		position: absolute;
@@ -480,7 +482,26 @@ footer p{
 		display: block;
 	}
 
-	.hero{
+	.text_hero{
+	width: 80%;
+	top: 20%;
+    left: 10%;
+	}
+
+	.hero_title, .hero_subtitle {
+	text-align: center;
+	}
+
+	h1{
+	font-size: 40px;
+	}
+
+	h2{
+	font-size: 30px;
+	}
+
+	h3{
+	font-size: 20px;
 	}
 
 	.btn_download{
@@ -493,6 +514,8 @@ footer p{
 		font-size: 130%;
 
 	}
+
+	
 
 
 
